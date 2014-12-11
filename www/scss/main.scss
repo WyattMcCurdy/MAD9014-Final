@@ -1,0 +1,79 @@
+@import "normalize";
+
+@import "variables";
+
+@import "mixins";
+
+@import "footer";
+
+.panel{
+text-align: center;
+}
+
+.full{
+ height: 100%;
+    background: url('paper.jpg') no-repeat center center fixed;
+}
+
+.thor{
+color: black;
+background: $Secondary-color;
+}
+
+.minusIcon, .plusIcon, .downIcon, .upIcon{
+width: 2.5rem;
+}
+
+.bottom{
+padding: .1rem;
+}
+
+
+p{
+font-size: 2.5rem;
+}
+
+
+body{
+background: $darker-secondary;
+}
+
+.btn{
+background: $darker-secondary;
+}
+
+.wrapper{
+margin-bottom: 85px;
+}
+
+body { 
+
+}
+
+/* =Links */
+a           { }
+a:hover     { }
+a:focus     {  } 
+a:hover, 
+a:active    {  }
+
+img     { vertical-align: middle; max-width: 100%; height: auto; }
+
+
+h1, h2, h3, h4, h5 ,h6 { }
+
+h1 {font-size: 4rem;}
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+
+ul, ol, dl  { }
+p           {}
+ul          { }
+
+strong { }
+em { }
+
+
